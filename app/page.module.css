@@ -61,3 +61,32 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.movieCard {
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #b1b1b1;
+}
+
+.movieCard img {
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.movieCard h2 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.movieCard p {
+    margin: 10px;
+}
