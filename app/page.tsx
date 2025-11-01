@@ -11,7 +11,7 @@ export default function Home() {
   const [page, setPage] = useState(1);
   const [maxPage, setMaxPage] = useState(1);
   const [movies, setMovies] = useState([]);
-  const [configs, setConfigs] = useState(null);
+  const [configs, setConfigs] = useState<any>(null);
 
   useEffect(() => {
     let mounted = true;
